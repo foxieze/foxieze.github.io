@@ -144,6 +144,28 @@ a {
 	padding: 10px;
 }
 
-.overview a {
+.nav-contact {
+	color: #ececec;
+	font-family: 'Gameplay';
+	margin-left: 30px;
+	float: right;
+	border: 5px solid #374254;
+	padding:10px;
+	
+	transition: background-color 0.1s linear;
+	font-size: 16px;
+}
 
+.nav {
+	padding: 30px 30px 0px 0px;
+	background-color: #222831;
+}
+
+.nav-contact:hover {
+	background-color: #374254;
+	cursor: pointer;
+}
+
+body {
+	position: relative;
 }
