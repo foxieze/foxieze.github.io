@@ -1,0 +1,9 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "author": "Jonah C Rowlinson",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

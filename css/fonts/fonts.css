@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Gameplay';
+	src: url('./Gameplay.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Coolvetica';
+	src: url('./coolvetica rg.ttf') format('truetype'); 
+}
+
+@font-face {
+	font-family: 'Questrian';
+	src: url('./questrian 3.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Nyata';
+	src: url('./NyataFTR-Regular.otf') format('opentype');
+}
