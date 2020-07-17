@@ -7,19 +7,60 @@
     <link type="text/css" href="./css/styles.css" rel="stylesheet">
     <link type="text/css" href='./css/assets/aos.css' rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <!-- <link type="text/css" href="./css/assets/simple-grid.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="./css/assets/flexboxgrid.min.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="header_container">
             <h1 class="title animate__animated animate__jackInTheBox"><span class="highlight">Jonah Rowlinson</span></h1>
             <h2 class="subtitle animate__animated animate__delay-1s animate__zoomInDown">Programmer</h6>
                 <a class="header-button animate__animated animate__fadeInUpBig animate__delay-2s" href="#overview">About Me</a>
         </div>
     </header>
-    <div class="overview">
-        <h1><a id="overview" data-aos="fade-left">Hey, I'm Jonah. Nice to meet you!</a></h1>
-        <p data-aos="fade-right">I'm a full stack developer from Leeds. I have been coding for 4 years but I am only 13 years old.</p>
+    <a id="overview">
+        <div class="overview">
+            <h1 data-aos="zoom-in-down">Hey, I'm Jonah. Nice to meet you!</h1>
+            <p data-aos="flip-up">I'm a full stack developer from Leeds. I have been coding for 4 years but I am only 13 years old.</p>
+        </div>
+    </a>
+    <div class="grid-container">
+        <div class="grid-item" data-aos="slide-right"><svg width="183" height="183" viewBox="0 0 183 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M89.9648 0L183 65.9901V158.069L89.9648 217L0 158.069V65.9901L89.9648 0Z" fill="#F2A365" />
+                <g clip-path="url(#clip0)">
+                    <path d="M143.732 75.2539C137.005 72.4893 130.272 71.4375 123.543 71.4375C102.18 71.4358 80.8197 82.0304 59.4574 82.0304C54.0999 82.0304 48.7459 81.3643 43.3884 79.6991C42.7866 79.5122 42.183 79.4238 41.5934 79.4238C38.6085 79.4238 36 81.6872 36 84.829V138.738C36 140.885 37.254 142.919 39.2676 143.744C45.9952 146.511 52.728 147.562 59.4574 147.562C80.8197 147.562 102.182 136.968 123.544 136.968C128.902 136.968 134.256 137.634 139.613 139.299C140.215 139.486 140.819 139.574 141.408 139.574C144.393 139.574 147.002 137.311 147.002 134.169V80.2615C147 78.1137 145.746 76.0815 143.732 75.2539V75.2539ZM44.325 88.4671C47.8146 89.3235 51.4567 89.7534 55.203 89.9845C54.1832 94.9785 49.7016 98.7422 44.325 98.7422V88.4671ZM44.325 136.895V128.776C50.286 128.776 55.1093 133.41 55.3747 139.209C51.4672 138.902 47.8146 138.137 44.325 136.895V136.895ZM91.5 125.812C83.8358 125.812 77.625 118.508 77.625 109.5C77.625 100.491 83.8375 93.1875 91.5 93.1875C99.1625 93.1875 105.375 100.491 105.375 109.5C105.375 118.511 99.1607 125.812 91.5 125.812ZM138.675 130.533C135.636 129.787 132.482 129.369 129.254 129.099C130.272 124.667 134.023 121.303 138.675 120.725V130.533ZM138.675 90.4127C133.318 89.7483 129.16 85.366 128.995 79.954C132.384 80.3227 135.602 81.0126 138.675 82.1052V90.4127Z" fill="white" />
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="111" height="87" fill="white" transform="translate(36 66)" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <h4>Cheapest price</h4>
+            <p>I offer cheaper prices as I am only looking for work for experience - I will often do the work completely free of charge!</p>
+        </div>
+        <div class="grid-item" data-aos="slide-up"><svg width="183" height="183" viewBox="0 0 183 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M89.9648 0L183 65.9901V158.069L89.9648 217L0 158.069V65.9901L89.9648 0Z" fill="#F2A365" />
+                <g clip-path="url(#clip0)">
+                    <path d="M84.4996 151.916L74.1106 148.908C73.0206 148.602 72.4075 147.464 72.714 146.376L95.9617 66.4791C96.2682 65.3916 97.4093 64.7798 98.4993 65.0857L108.888 68.0933C109.978 68.3992 110.592 69.5377 110.285 70.6252L87.0373 150.522C86.7137 151.61 85.5896 152.239 84.4996 151.916V151.916ZM65.084 132.851L72.4926 124.966C73.276 124.134 73.225 122.808 72.3564 122.044L56.9261 108.501L72.3564 94.958C73.225 94.1933 73.2931 92.8679 72.4926 92.0353L65.084 84.1509C64.3176 83.3353 63.0232 83.2843 62.1887 84.066L37.6467 107.005C36.7781 107.804 36.7781 109.18 37.6467 109.979L62.1887 132.936C63.0232 133.717 64.3176 133.683 65.084 132.851V132.851ZM120.81 132.952L145.352 109.996C146.221 109.197 146.221 107.821 145.352 107.022L120.81 84.049C119.993 83.2843 118.698 83.3183 117.915 84.1339L110.506 92.0183C109.723 92.8509 109.774 94.1763 110.643 94.941L126.073 108.501L110.643 122.044C109.774 122.808 109.706 124.134 110.506 124.966L117.915 132.851C118.681 133.683 119.976 133.717 120.81 132.952V132.952Z" fill="white" />
+                </g>
+                <defs>
+                    <clipPath id="clip0">
+                        <rect width="109" height="87" fill="white" transform="translate(37 65)" />
+                    </clipPath>
+                </defs>
+            </svg>
+            <h4>Fullstack Web Development</h4>
+            <p>Web Development is my 'area of expertise'. This is what I have the most knowledge of. I mainly use Node.js but am happy to learn another technology!</p>
+        </div>
+        <div class="grid-item" data-aos="slide-left"><svg width="183" height="183" viewBox="0 0 183 217" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M89.9648 0L183 65.9901V158.069L89.9648 217L0 158.069V65.9901L89.9648 0Z" fill="#F2A365" />
+                <path d="M92.9311 59C77.5493 59 67.5865 65.2596 59.7647 76.4229C58.3458 78.448 58.7832 81.2246 60.7625 82.7152L69.0756 88.9759C71.0745 90.4814 73.9187 90.1294 75.4837 88.182C80.3108 82.1755 83.8916 78.7171 91.4317 78.7171C97.3601 78.7171 104.693 82.5068 104.693 88.2168C104.693 92.5334 101.105 94.7503 95.2517 98.0099C88.4254 101.811 79.392 106.542 79.392 118.377V120.25C79.392 122.787 81.4627 124.844 84.017 124.844H97.9828C100.537 124.844 102.608 122.787 102.608 120.25V119.145C102.608 110.941 126.748 110.6 126.748 88.4C126.748 71.6818 109.288 59 92.9311 59ZM91 130.482C83.6393 130.482 77.6509 136.43 77.6509 143.741C77.6509 151.052 83.6393 157 91 157C98.3607 157 104.349 151.052 104.349 143.741C104.349 136.43 98.3607 130.482 91 130.482Z" fill="white" />
+            </svg>
+            <h4>Anything else</h4>
+            <p>Web Development is what I have found I enjoy the most, but that doesn't mean I can't do anything else! I have worked on Game Development, SysAdmin and many other areas!</p>
+        </div>
     </div>
     <svg width="1440" height="200" viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M720 200L0 0.000244141V200H720Z" fill="#222831" />
