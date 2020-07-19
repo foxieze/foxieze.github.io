@@ -55,7 +55,7 @@ header .header_container {
 }
 
 header a {
-	color: #ececec;
+    color: #ececec;
 }
 
 html {
@@ -73,100 +73,120 @@ html {
 }
 
 a {
-	color:#000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 
 .overview {
-	text-align: center;
-	padding: 20px 0px 50px 0px;
+    text-align: center;
+    padding: 20px 0px 50px 0px;
 
-	background-color: #f2a365;
+    background-color: #f2a365;
 
 }
 
 .overview h1 {
-	font-family: 'Coolvetica';
-	color: white;
-	font-size: 42px;
+    font-family: 'Coolvetica';
+    color: white;
+    font-size: 42px;
 }
 
 .overview {
-	color:white;
+    color: white;
 }
 
 #overview {
-	color:white;
-	letter-spacing: 3px;
-	font-weight: 600;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 600;
 }
 
 .overview p {
-	font-family: 'Nyata';
-	font-weight: 0;
-	font-size: 24px;
-	width:60%;
-	text-align: center;
-	margin:auto;
+    font-family: 'Nyata';
+    font-weight: 0;
+    font-size: 24px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
 }
 
 /* Grid */
 
 .grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto;
-	grid-template-rows: auto;
-	justify-content: center;
-	grid-column-gap: 50px;
-	padding-top: 30px;
-	margin: 0px 50px;
-	overflow-x: hidden;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    grid-column-gap: 50px;
+    padding-top: 30px;
+    margin: 0px 50px;
+    overflow-x: hidden;
 }
 
 .grid-item {
-	text-align: center;
+    text-align: center;
 }
 
 .grid-item h4 {
-	font-family: 'Coolvetica';
-	font-size: 22px;
-	letter-spacing: 2px;
-	color:#212121;
+    font-family: 'Coolvetica';
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #212121;
 }
 
 .grid-item p {
-	font-family: 'Nyata';
-	color:#4f4f4f;
-	font-size: 18px;
+    font-family: 'Nyata';
+    color: #4f4f4f;
+    font-size: 18px;
 }
 
 .dark-highlight {
-	color:#222831;
-	padding: 10px;
+    color: #222831;
+    padding: 10px;
 }
 
 .nav-contact {
-	color: #ececec;
-	font-family: 'Gameplay';
-	margin-left: 30px;
-	float: right;
-	border: 5px solid #374254;
-	padding:10px;
-	
-	transition: background-color 0.1s linear;
-	font-size: 16px;
+    color: #ececec;
+    font-family: 'Gameplay';
+    margin-left: 30px;
+    float: right;
+    border: 5px solid #374254;
+    padding: 10px;
+
+    transition: background-color 0.1s linear;
+    font-size: 16px;
 }
 
 .nav {
-	padding: 30px 30px 0px 0px;
-	background-color: #222831;
+    padding: 30px 30px 0px 0px;
+    background-color: #222831;
 }
 
 .nav-contact:hover {
-	background-color: #374254;
-	cursor: pointer;
+    background-color: #374254;
+    cursor: pointer;
 }
 
 body {
-	position: relative;
+    position: relative;
 }
+
+.form-control {
+    border-radius: 2px;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    box-shadow: 0 1px 5px -2px rgba(0, 0, 0, .2);
+
+    &:focus {
+        box-shadow: 0 1px 5px -2px #42A5F5;
+        border-bottom: 1px solid #2196F3;
+    }
+
+}
+
+.form-group {
+    label {
+        color: #616161;
+    }
+}
+
