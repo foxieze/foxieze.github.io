@@ -120,6 +120,7 @@ a {
 	grid-column-gap: 50px;
 	padding-top: 30px;
 	margin: 0px 50px;
+	overflow-x: hidden;
 }
 
 .grid-item {
