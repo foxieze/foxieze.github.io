@@ -66,17 +66,18 @@
             <p>Web Development is what I have found I enjoy the most, but that doesn't mean I can't do anything else! I have worked on Game Development, SysAdmin and many other areas!</p>
         </div>
     </div>
-    <div class="contact-form">
-        <a id="contact"></a>
-        <svg width="100%" height="200" viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="triangle" width="100%" height="200" viewBox="0 0 1440 200" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M720 200L0 0.000244141V200H720Z" fill="#222831" />
             <path d="M720 200L1440 0V200H720Z" fill="#222831" />
         </svg>
+    <div class="contact-form">
+        <a id="contact"></a>
+        
 
-        <form method="POST" action="http://192.168.1.74:8000/contact" class="input">
-            <input class="form-control" type="text" name="name" placeholder="Full Name">
-            <input type="email" name="email" placeholder="Email">
-            <input type="text" name="message" placeholder="Message">
+        <form method="POST" action="http://192.168.1.74:8000/contact" class="contact-input">
+            <input data-aos="slide-right" class="form-control" type="text" name="name" placeholder="Full Name / Company Name" autocomplete="off">
+            <input data-aos="slide-left" type="email" name="email" placeholder="Email" autocomplete="off">
+            <textarea data-aos="slide-up" name="message" placeholder="Message" autocomplete="off" rows="4"></textarea>
 
             <input type="submit">
         </form>
